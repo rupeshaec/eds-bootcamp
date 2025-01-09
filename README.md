@@ -4,6 +4,7 @@ Your project's description...
 ## Environments
 - Preview: https://main--eds-bootcamp--rupeshaec.aem.page/
 - Live: https://main--eds-bootcamp--rupeshaec.aem.live/
+- Google Drive location https://drive.google.com/drive/folders/1_bUFJchISW1YDrZStV5E0QB1fXYUYLfb (rkum071@gmail.com)
 
 ## Documentation
 
