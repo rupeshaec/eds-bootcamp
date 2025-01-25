@@ -1,13 +1,13 @@
 .banner {
     background: lightcyan;
-    border: 1px solid #dddddd;
+    border: 1px solid #ddd;
     border-radius: 6px;
 }
 
 .banner .item-title {
     cursor: pointer;
     padding: 12px;
-    border-bottom: 1px solid #dddddd;
+    border-bottom: 1px solid #ddd;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,7 +25,7 @@
 }
 
 .banner .item-title.open {
-    background: #dddddd;
+    background: #ddd;
 }
 
 .banner .item-title.open::after {
@@ -37,7 +37,7 @@
     grid-template-columns: 1fr 1fr;
     gap: 12px;
     padding: 12px;
-    border-bottom: 1px solid #dddddd;
+    border-bottom: 1px solid #ddd;
 }
 
 .banner .item-title.open + .item-content {
