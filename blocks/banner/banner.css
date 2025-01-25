@@ -13,7 +13,7 @@
     align-items: center;
 }
 
-.banner .item-title:after {
+.banner .item-title::after {
     width: 10px;
     height: 10px;
     border-bottom: 2px solid #a7a7a7;
