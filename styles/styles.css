@@ -255,19 +255,3 @@ main .section.highlight {
   margin: 0;
   padding: 40px 0;
 }
-
-/* Start: CSS to create icon for button */
-/* Button styling */
-.button-with-icon {
-  cursor: pointer;
-  /* display: inline-block; */
-  width: 20px;
-  height: 20px;
-  background-color: #4CAF50;
-  /* mask: url(/icons/help.svg) no-repeat center; */
-  -webkit-mask: url(/icons/help.svg) no-repeat center;
-  /* mask-size: contain; */
-  -webkit-mask-size: contain;
-  margin-right: 10px;
-}
-/* End: CSS to create icon for button */
