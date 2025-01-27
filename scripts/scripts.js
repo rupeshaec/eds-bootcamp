@@ -11,6 +11,7 @@ import {
   loadSection,
   loadSections,
   loadCSS,
+  fetchPlaceholders,
 } from './aem.js';
 
 /**
@@ -108,6 +109,11 @@ async function loadLazy(doc) {
 
   loadCSS(`${window.hlx.codeBasePath}/styles/lazy-styles.css`);
   loadFonts();
+
+  // example use of placeholders
+  const placeholders = await fetchPlaceholders('');
+  const { key } = placeholders;
+  console.error(key);
 }
 
 /**
