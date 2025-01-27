@@ -111,7 +111,7 @@ async function loadLazy(doc) {
   loadFonts();
 
   // example use of placeholders
-  const placeholders = await fetchPlaceholders('');
+  const placeholders = await fetchPlaceholders('en');
   const { key } = placeholders;
   console.error(key);
 }
