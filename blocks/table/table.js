@@ -24,7 +24,7 @@ function renderTable(data, block) {
 
   data.forEach((item) => {
     const row = document.createElement("tr");
-    row.innerHTML = `<td>${item.name}</td><td>${item.gender}</td>`;
+    row.innerHTML = `<td>${item.Name}</td><td>${item.Gender}</td>`;
     tableBody.appendChild(row);
   });
 }
